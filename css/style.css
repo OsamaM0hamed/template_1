@@ -1,0 +1,27 @@
+body{
+    font-family: Tajawal;
+}
+header{
+    min-height: 100vh;
+    background: linear-gradient(rgba(29, 73, 83, 0.451),rgba(26, 67, 77, 0.467)),url(../images/mountains.jpg);
+
+    background-position: center;
+    background-size: cover;
+}
+.navbar{
+    box-shadow: 0 1px 6px #333;
+}
+.nav-link{
+    font-size: 1.3rem;
+    color: rgb(35, 118, 134);
+    margin-left: 20px;
+}
+.nav-link a:hover{
+    color: rgb(23, 44, 48);
+}
+.nav-link.active{
+    color: rgb(12, 186, 221) !important;
+}
+img{
+    mix-blend-mode: multiply;
+}
